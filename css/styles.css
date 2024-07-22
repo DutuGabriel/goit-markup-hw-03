@@ -34,6 +34,11 @@ body {
   background-color: #ffffff;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -165,7 +170,17 @@ body {
   padding: 120px 0;
 }
 
-.hidden-title {
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .strengths {
@@ -184,9 +199,6 @@ body {
 .section-three {
   background-color: #f4f4fd;
   padding: 120px 0;
-}
-
-.section-three-container {
 }
 
 .team-list {
@@ -261,8 +273,6 @@ body {
 .footer-section {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-logo {
@@ -273,6 +283,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-span {
