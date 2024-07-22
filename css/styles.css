@@ -36,8 +36,7 @@ body {
 }
 
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .container {
@@ -141,10 +140,10 @@ body {
 .first-title {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  text-align: center;
 }
 
 .order-button {
@@ -171,10 +170,6 @@ body {
   background-color: #404bbf;
 }
 
-.section-two {
-  padding: 120px 0;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -199,7 +194,6 @@ body {
 
 .section-three {
   background-color: #f4f4fd;
-  padding: 120px 0;
 }
 
 .team-list {
@@ -247,11 +241,6 @@ body {
   text-align: center;
 }
 
-.section-four {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .apps {
   display: flex;
   flex-wrap: wrap;
@@ -263,6 +252,9 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+
+.app-title {
   margin-bottom: 8px;
 }
 
